@@ -8,6 +8,9 @@ public class SquareTest {
 
         square = new Square(5.8,"yellow",false);
         System.out.println(square);
+
+        Shap shap = new Shap("red",false);
+        System.out.println(shap);
     }
 
 }

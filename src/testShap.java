@@ -6,5 +6,10 @@ public class testShap {
         shap = new Shap("red",false);
         System.out.println(shap);
 
+        Triangle triangle = new Triangle();
+        System.out.println(triangle);
+
+        triangle = new Triangle("green",false,2,3,4);
+        System.out.println(triangle);
     }
 }
